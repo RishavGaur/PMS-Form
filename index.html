@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Post Matric Scholorship</title>
+    <link rel="stylesheet" href="bootstrap@5.3.1_dist_css_bootstrap.min.css">
+    <link rel="shortcut icon" href="static/img/kindpng_2196137.png">
+    <link rel="stylesheet" href="static/css/post_matric_form.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</head>
+
+<body class="back">
+    <form action="" class="container" name="Post-Matric-Scholarship" id="form-col">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="static/img/Aheader.jpg" alt="" style="max-width:100%">
+            </div>
+        </div>
+        <div class="row" id="menu-bar">
+            <div class="col-2">
+                <span>Menu</span>
+            </div>
+            <div class="col-2">
+                <span>Institution++</span>
+            </div>
+            <div class="col-2">
+                <span>Student++</span>
+            </div>
+            <div class="col-2">
+                <span>Official Login</span>
+            </div>
+            <div class="col-2">
+                <span>Reports++</span>
+            </div>
+            <div class="col-2">
+                <a href="#hd"><span>HelpDesk</span></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p style="color:red;" class="text">केवल बिहार राज्य के अन्दर अवस्थित सभी सरकारी एवं मान्यता प्राप्त गैर
+                    सरकारी संस्थानों में प्रवेशिकोत्तर पाठ्यक्रमों में अध्ययनरत् पिछड़ा वर्ग एवं अत्यंत पिछड़ा वर्ग
+                    (BC-EBC) के छात्र / छात्राओं के लिए है।</p>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col">
+                <span class="sty">
+                    <h4 class="brd">Student Registration Details</h4>
+                </span>
+            </div>
+        </div><br>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="row-md">
+                    <label for="sname">Name of Student<sup>*</sup> :</label>
+                </div>
+                <div class="row-md">
+                    <input type="text" name="sname" id="sname" required>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="row-md">
+                    <label for="fname">Father's Name<sup>*</sup> :</label>
+                </div>
+                <div class="row-md">
+                    <input type="text" name="fname" id="fname" required>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="row-md">
+                    <label for="mname">Mother's Name<sup>*</sup> :</label>
+                </div>
+                <div class="row-md">
+                    <input type="text" name="mname" id="mname" required>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="row-md">
+                    <label for="dob">Date Of Birth as Per 10th Certificate.<sup>*</sup> :</label>
+                </div>
+                <div class="row-md">
+                    <input type="date" name="dob" id="dob" required>
+                </div>
+            </div>
+        </div><br>
+        <div class="row">
+            <div class="col-3">
+                <div class="row-md">
+                    <label for="gend">Gender<sup>*</sup> :</label>
+                </div>
+                <div class="row-md">
+                    <select name="gend" id="gend" required>
+                        <option disabled selected>---Select---</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="row-md">
+                    <label for="mstatus">Marital status<sup>*</sup> :</label>
+                </div>
+                <div class="row-md">
+                    <select name="mstatus" id="mstatus" required>
+                        <option disabled selected>---Select---</option>
+                        <option value="married">Married</option>
+                        <option value="unmarried">Unmarried</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="row-md">
+                    <label for="category">Category<sup>*</sup> :</label>
+                </div>
+                <div class="row-md">
+                    <select name="category" id="category" required>
+                        <option disabled selected>---Select---</option>
+                        <option value="bc">BC</option>
+                        <option value="ebc">EBC</option>
+                    </select>
+                </div>
+            </div>
+        </div><br>
+        <div class="row text-lg-start">
+            <div class="col" class="sty">
+                <h4 class="brd">E-mail Verification</h4>
+            </div>
+        </div><br>
+        <div class="row">
+            <div class="col-3">
+                <label for="email">Email<sup>*</sup> :</label>
+            </div>
+            <div class="col-3">
+                <div class="row">
+                    <input type="email" name="email" id="email" required>
+                </div>
+            </div>
+            <div class="col-3">
+
+            </div>
+            <div class="col-3">
+                <div>
+                    <button type="button" class="btn btn-danger">Get OTP Email ID</button>
+                </div>
+                <br>
+            </div>
+        </div>
+        <div class="row text-lg-start">
+            <div class="col" class="sty">
+                <h4 class="brd">Mobile Verification</h4>
+            </div>
+        </div><br>
+        <div class="row">
+            <div class="col-3">
+                <label for="mob">Mobile No.<sup>*</sup> :</label>
+            </div>
+            <div class="col-3">
+                <div class="row">
+                    <input type="text" name="mob" id="mob" maxlength="10" required>
+                </div>
+            </div>
+            <div class="col-3">
+
+            </div>
+            <div class="col-3">
+                <div>
+                    <button type="button" class="btn btn-danger">Get OTP Mobile No.</button>
+                </div>
+                <br>
+            </div>
+        </div>
+        <div class="row text-lg-start">
+            <div class="col" class="sty">
+                <h4 class="brd">Aadhaar Verification</h4>
+            </div>
+        </div><br>
+        <div class="row">
+            <div class="col-3">
+                <div class="row-md">
+                    <label for="aad">Aadhaar Number<sup>*</sup> :</label>
+                </div>
+                <div class="row-md">
+                    <input type="text" name="aad" id="aad" maxlength="16" required>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="row-md">
+                    <label for="birth">Year of Birth As Per Aadhaar<sup>*</sup> </label>
+                </div>
+                <div class="row-md">
+                    <input type="text" name="birth" id="birth" maxlength="4" required>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="row-md">
+                    <label for="name">NAME AS PER AADHAAR.<sup>*</sup> </label>
+                </div>
+                <div class="row-md">
+                    <input type="text" name="name" id="name" required>
+                </div>
+            </div>
+            <div class="col-3">
+                <div>
+                    <button type="button" class="btn btn-success">Verify Aadhaar No.</button>
+                </div>
+                <br><br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p style="color:red;" class="text">दस्तावेज़ PDF प्रारूप में होना चाहिए|</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <div class="row-md">
+                    <label for="resi">Upload Residential Certificate<sup style="color:red;">*</sup></label>
+                </div>
+                <div class="row-md">
+                    <input type="file" name="resi" id="resi" class="up-file">
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="row-md">
+                    <label for="inc">Upload Income Certificate<sup style="color:red;">*</sup></label>
+                </div>
+                <div class="row-md">
+                    <input type="file" name="inc" id="inc" class="up-file">
+                </div><br>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="row-md">
+                        <label for="caste">Upload Caste Certificate<sup style="color:red;">*</sup></label>
+                    </div>
+                    <div class="row-md">
+                        <input type="file" name="caste" id="caste" class="up-file">
+                    </div>
+                </div>
+            </div>
+        </div><br><br>
+        <div class="row">
+            <div class="col-3">
+            </div>
+            <div class="col-3">
+            </div>
+            <div class="col-3">
+                <button type="reset" class="btn btn-danger">Reset</button>
+            </div>
+            <div class="col-3">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </div><br>
+        <div class="row">
+            <p class="note">Note :- Fields marked with * are mandatory</p>
+        </div><br>
+    </form>
+</body>
+<footer class="container" id="bfoot">
+    <div class="row">
+        <div class="col-3">
+            <div class="row-md">
+                <h6>National Informatics Centre (NIC)</h6>
+            </div>
+            <div class="row-md">
+                <p class="t-col">National Informatics Centre (NIC) was established in 1976, and has since emerged as a
+                    "prime builder" of e-Government / e-Governance applications up to the grassroots level as well as a
+                    promoter of digital opportunities for sustainable development.</p>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="row-md">
+                <h6>Useful Links</h6>
+            </div>
+            <div class="row-md">
+                <ol class="t-col">
+                    <li>National Scholarship Portal</li>
+                    <li>Education Department Website</li>
+                    <li>MedhaSoft</li>
+                </ol>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="row-md" id="hd">
+                <h6>HelpDesk</h6>
+            </div>
+            <div class="row-md">
+                <span class="t-col">+91-9534547098 (Raj Kumar)</span>
+            </div>
+            <div class="row-md">
+                <span class="t-col">+91-8986294256 (INDRAJEET)</span>
+            </div><br>
+            <div class="row-md">
+                <p class="t-col">For any query and suggestion mail us on <br> postmatricbiharhelp2223@gmail.com</p>
+            </div>
+        </div>
+    </div>
+</footer>
+</html>

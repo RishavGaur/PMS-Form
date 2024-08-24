@@ -1,0 +1,51 @@
+.back{
+    background-color:#1aa179;
+}
+.sty{
+    border:10px;
+}
+#form-col{
+    background-color:#fff;
+}
+img{
+    padding:10px;
+}
+.text{
+    padding:15px;
+    font-size:25px
+}
+.brd{
+    border:1px solid rgba(11, 93, 141, 0.3);
+    background: rgba(11, 93, 141, 0.3);
+    font-weight: initial;
+    padding:5px;
+}
+.note{
+    border:1px;
+    border-top:2px solid rgba(192, 189, 189,0.3);
+    background:rgba(25, 13, 155, 0.2);
+    padding:8px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#bfoot{
+    background:rgb(91, 90, 90);
+    padding:10px;
+}
+.t-col{
+    color:white;
+}
+#menu-bar{
+    border:1px solid rgb(6, 6, 79);
+    background:rgb(6, 6, 79);
+    color:white;
+    padding:3px;
+}
+.up-file{
+    border:1px solid rgba(206, 200, 200,0.3);
+    background:rgba(206, 200, 200,0.3);
+    padding:15px;
+}
+a{
+    color:white;
+    text-decoration:none;
+}
